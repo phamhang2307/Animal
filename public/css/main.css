@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login_main{
+    width: 100%;
+    background-color:#cd7ea1 ;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+.main{
+    width: 550px;
+    border: #1877F2 2px solid;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.main h2{
+    text-align: center;
+    background-color: #1877F2;
+    padding: 10px 0;
+}
+.content-login{
+    margin: 15px 0;
+    padding: 3px 0 ;
+    display: flex;
+    align-items: center;
+}
+.content-login p{
+    float: left;
+    width: 200px;
+    text-align: right;
+    margin-right: 20px;
+}
+.error span{
+    display: flex;
+    justify-content: center;
+}
+.content-login input.nhap{
+    width: 250px;
+    padding: 10px;
+}
+button.submit{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: ui-rounded;
+    background-color: #1877F2;
+    font-size: 15px;
+}
+button.submit:hover{
+    color: white;
+    background-color: brown;
+}
+/* head -----------------*/
+.header{
+    width: 100%;
+    
+}
+.header h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900px;
+    font-size: 40px;
+    padding: 20px;
+    width: 100%;
+    background-color: #338650;
+    color: #fff;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    background-color: #336444;
+    color: white;
+    padding: 15px 30px;
+}
+.menu ul.menu-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;;
+    list-style: none;
+    overflow: hidden; 
+}
+.menu ul.menu-header a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    padding: 14px 16px;
+
+}
+.subnav .subnav-a{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 41px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.menu-header a:hover, .subnav:hover .subnav-a:hover {
+    color: #d42996;
+  }
+  
+.subnav-content{
+    display: none;
+    position: absolute;
+    background-color: #336444;
+    z-index: 1;
+    right: 130px;
+    width: 20%;
+}
+.subnav-content a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black !important;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/* ---------------------------- */
+.content-big{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 1200px;
+    background-color: #fff;
+    padding: 20px 25px 0;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.left-content{
+    width: 790px;
+    text-align: center;
+    margin-bottom:20px
+}   
+.wrapImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cd7ea1;
+}
+.wellcome{
+    width: 30%;
+}
+.imgHome{
+    height: 350px;
+    width: 60%;
+}
+.image{
+    width: 100%;
+    height: 80%;
+    margin-top: 36px;
+}
+.single-animal{
+    display: inline-block;
+    padding: 10px;
+}
+.single-animal img.img-single{
+    width: 170px;
+    height: 150px;
+}
+/* right content */
+.right-content{
+    width: 300px;
+    background-color: #e16b9c;
+    padding: 10px 20px;
+    margin-bottom: 20px
+}
+.search .input-search{
+    padding: 5px;
+    width: 94%;
+}
+.search p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(51, 163, 107);
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    width: 1200px;
+    text-align: center;
+    background-color: rgb(51, 163, 107);
+
+}
+.wrap h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.content-wrap a{
+    text-decoration: none;
+    color: black;
+
+}
